@@ -53,9 +53,9 @@ $writer->save('php://output');
 exit;
 
 // old part, just saving it back
-*/
-$writer->save("test.xlsx");
 
+$writer->save("test.xlsx");
+*/
 echo "Cell A1 updated successfully.";
 
 ?>
