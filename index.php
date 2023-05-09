@@ -1,5 +1,6 @@
 <?php
 // Include the PhpSpreadsheet classes
+/*
 require_once "SimpleCache/CacheInterface.php";
 require_once "PhpOffice/PhpSpreadsheet/IComparable.php";
 require_once "PhpOffice/PhpSpreadsheet/ReferenceHelper.php";
@@ -52,9 +53,9 @@ $writer->save('php://output');
 exit;
 
 // old part, just saving it back
-/*
+*/
 $writer->save("test.xlsx");
 
 echo "Cell A1 updated successfully.";
-*/
+
 ?>
