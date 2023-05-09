@@ -43,7 +43,18 @@ $worksheet->setCellValue("A1", "Hello World!");
 
 // Save the updated file
 $writer = new Xlsx($spreadsheet);
+
+// return Xlsx
+header('Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
+header('Content-Disposition: attachment;filename="example.xlsx"');
+header('Cache-Control: max-age=0');
+$writer->save('php://output');
+exit;
+
+// old part, just saving it back
+/*
 $writer->save("test.xlsx");
 
 echo "Cell A1 updated successfully.";
+*/
 ?>
