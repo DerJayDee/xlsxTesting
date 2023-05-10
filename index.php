@@ -28,7 +28,7 @@ require_once "PhpOffice/PhpSpreadsheet/Writer/Xlsx.php";
 require_once "PhpOffice/PhpSpreadsheet/Shared/File.php";
 require_once "PhpOffice/PhpSpreadsheet/Shared/StringHelper.php";
 require_once "PhpOffice/PhpSpreadsheet/IOFactory.php";
-/*
+
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
 use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
 use PhpOffice\PhpSpreadsheet\IOFactory;
@@ -53,9 +53,9 @@ $writer->save('php://output');
 exit;
 
 // old part, just saving it back
-
+/*
 $writer->save("test.xlsx");
-*/
-echo "Cell A1 updated successfully.";
 
+echo "Cell A1 updated successfully.";
+*/
 ?>
