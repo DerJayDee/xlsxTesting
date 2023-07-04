@@ -1,0 +1,1 @@
+Version 2.0.0 from https://github.com/php-fig/simple-cache/releases

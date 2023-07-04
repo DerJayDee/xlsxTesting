@@ -1,0 +1,1 @@
+Version 1.28.0 from https://github.com/PHPOffice/PhpSpreadsheet/releases
